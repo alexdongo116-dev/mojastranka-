@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OBRYS — Obrubníky a dlažby</title>
+<meta name="description" content="OBRYS realizuje obrubníky, zámkovú dlažbu a asfaltové plochy na kľúč. Presnosť do milimetra, overený pracovný postup.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#top" class="logo"><span class="dot"></span>OBRYS</a>
+    <ul class="nav-links">
+      <li><a href="#sluzby">Služby</a></li>
+      <li><a href="#proces">Postup</a></li>
+      <li><a href="#referencie">Referencie</a></li>
+      <li><a href="#recenzie">Recenzie</a></li>
+      <li><a href="#faq">Otázky</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+    <div class="search-box">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input id="siteSearch" type="text" placeholder="Hľadať na stránke…" autocomplete="off">
+    </div>
+    <a href="#kontakt" class="nav-cta">Nezáväzná ponuka</a>
+    <button class="burger" aria-label="Otvoriť menu" id="burgerBtn"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Obrubníky · Dlažba · Odvodnenie</div>
+        <h1>Hranice,<br>ktoré <span>držia tvar.</span></h1>
+        <p class="lead">OBRYS navrhuje a realizuje obrubníky, zámkovú dlažbu a spevnené plochy pre rodinné domy, firmy aj samosprávy po celom Slovensku. Presné spády, rovné hrany, žiadne prekvapenia.</p>
+        <div class="btn-row">
+          <a href="#kontakt" class="btn btn-primary">Vyžiadať cenovú ponuku</a>
+          <a href="#referencie" class="btn btn-outline">Pozrieť realizácie</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>412</b><span>Dokončených realizácií</span></div>
+          <div><b>8</b><span>Krokov overeného postupu</span></div>
+          <div><b>18 dní</b><span>Priemerná realizácia</span></div>
+        </div>
+      </div>
+      <div class="cross-section">
+        <svg viewBox="0 0 520 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Priečny rez skladbou chodníka">
+          <!-- subgrade -->
+          <rect x="20" y="230" width="280" height="55" fill="#2C2A24" stroke="var(--line)"/>
+          <!-- base gravel -->
+          <rect x="20" y="200" width="280" height="30" fill="#3A372E" stroke="var(--line)"/>
+          <!-- concrete bed -->
+          <rect x="20" y="178" width="280" height="22" fill="#5C594D" stroke="var(--line)"/>
+          <!-- sand bedding -->
+          <rect x="20" y="166" width="280" height="12" fill="#C7C5BC" stroke="var(--line)"/>
+          <!-- pavers -->
+          <g fill="#E8622C" stroke="#1B1B18" stroke-width="1.5">
+            <rect x="20" y="146" width="35" height="20"/>
+            <rect x="55" y="146" width="35" height="20"/>
+            <rect x="90" y="146" width="35" height="20"/>
+            <rect x="125" y="146" width="35" height="20"/>
+            <rect x="160" y="146" width="35" height="20"/>
+            <rect x="195" y="146" width="35" height="20"/>
+            <rect x="230" y="146" width="35" height="20"/>
+            <rect x="265" y="146" width="35" height="20"/>
+          </g>
+          <!-- curb -->
+          <path d="M20 146 L20 100 L52 100 L52 118 L40 118 L40 146 Z" fill="#D9B44A" stroke="#1B1B18" stroke-width="1.5"/>
+
+          <!-- leader lines -->
+          <g stroke="#5A5850" stroke-width="1">
+            <line x1="52" y1="112" x2="330" y2="92"/>
+            <line x1="300" y1="156" x2="330" y2="127"/>
+            <line x1="300" y1="172" x2="330" y2="162"/>
+            <line x1="300" y1="189" x2="330" y2="197"/>
+            <line x1="300" y1="215" x2="330" y2="232"/>
+            <line x1="300" y1="257" x2="330" y2="267"/>
+          </g>
+          <g>
+            <circle cx="330" cy="92" r="2.5" fill="#D9B44A"/>
+            <circle cx="330" cy="127" r="2.5" fill="#E8622C"/>
+            <circle cx="330" cy="162" r="2.5" fill="#C7C5BC"/>
+            <circle cx="330" cy="197" r="2.5" fill="#5C594D"/>
+            <circle cx="330" cy="232" r="2.5" fill="#3A372E"/>
+            <circle cx="330" cy="267" r="2.5" fill="#2C2A24"/>
+          </g>
+
+          <!-- legend labels -->
+          <g font-family="JetBrains Mono, monospace" font-size="13" fill="#EDEBE4" font-weight="500">
+            <text x="342" y="96">OBRUBNÍK</text>
+            <text x="342" y="131">ZÁMKOVÁ DLAŽBA</text>
+            <text x="342" y="166">LOŽNÁ VRSTVA</text>
+            <text x="342" y="201">PODKLAD C16/20</text>
+            <text x="342" y="236">ŠTRKODRŤ 0/32</text>
+            <text x="342" y="271">ZHUTNENÁ PLÁŇ</text>
+          </g>
+          <g font-family="Work Sans, sans-serif" font-size="10.5" fill="#8A8A82">
+            <text x="342" y="110">žulový alebo betónový</text>
+            <text x="342" y="145">presné škáry, spád 2 %</text>
+            <text x="342" y="180">piesok, hr. 3–4 cm</text>
+            <text x="342" y="215">betónové lôžko</text>
+            <text x="342" y="250">hutnená štrková vrstva</text>
+            <text x="342" y="285">zhutnená zemná pláň</text>
+          </g>
+        </svg>
+        <div class="cap"><span>Priečny rez skladbou</span><span>mierka 1 : 20</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span><b>→</b> Betónové obrubníky</span>
+      <span><b>→</b> Žulové obrubníky</span>
+      <span><b>→</b> Zámková dlažba</span>
+      <span><b>→</b> Asfaltové plochy</span>
+      <span><b>→</b> Odvodňovacie žľaby</span>
+      <span><b>→</b> Parkoviská a nájazdy</span>
+      <span><b>→</b> Chodníky a cyklotrasy</span>
+      <span><b>→</b> Betónové obrubníky</span>
+      <span><b>→</b> Žulové obrubníky</span>
+      <span><b>→</b> Zámková dlažba</span>
+      <span><b>→</b> Asfaltové plochy</span>
+      <span><b>→</b> Odvodňovacie žľaby</span>
+      <span><b>→</b> Parkoviská a nájazdy</span>
+      <span><b>→</b> Chodníky a cyklotrasy</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="sluzby">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Čo staviame</h2>
+        <p>Od osadenia jedného metra obrubníka po kompletné spevnené plochy priemyselných areálov.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="num">01</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#E8622C" stroke-width="1.6"><path d="M3 20h18M5 20V9l4-4 4 4v11M13 20V9l4-4 4 4v11"/></svg>
+          <h3>Betónové obrubníky</h3>
+          <p>Cestné aj záhradné obrubníky do betónového lôžka, presný spád na odtok vody.</p>
+        </div>
+        <div class="service-card">
+          <div class="num" style="color:var(--teal);">02</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#4FA69A" stroke-width="1.6"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
+          <h3>Zámková dlažba</h3>
+          <p>Pochôdzne aj pojazdné plochy — dvory, chodníky, parkoviská, historické centrá.</p>
+        </div>
+        <div class="service-card">
+          <div class="num">03</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#E8622C" stroke-width="1.6"><rect x="3" y="8" width="18" height="8" rx="1"/><path d="M3 12h18"/></svg>
+          <h3>Asfaltové plochy</h3>
+          <p>Frézovanie, penetrácia a pokládka asfaltu pre cesty, parkoviská aj vjazdy.</p>
+        </div>
+        <div class="service-card">
+          <div class="num" style="color:var(--teal);">04</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#4FA69A" stroke-width="1.6"><path d="M12 3v12M6 21c0-4 2.5-6 6-6s6 2 6 6"/></svg>
+          <h3>Odvodnenie</h3>
+          <p>Líniové žľaby, vsakovacie bloky a napojenie na dažďovú kanalizáciu.</p>
+        </div>
+        <div class="service-card">
+          <div class="num">05</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#E8622C" stroke-width="1.6"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+          <h3>Žulové obrubníky</h3>
+          <p>Prírodný kameň pre historické jadrá a reprezentatívne priestranstvá.</p>
+        </div>
+        <div class="service-card">
+          <div class="num" style="color:var(--teal);">06</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#4FA69A" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>
+          <h3>Údržba a oprava</h3>
+          <p>Preosadenie prepadnutých obrubníkov, doplnenie škár, oprava výtlkov.</p>
+        </div>
+        <div class="service-card">
+          <div class="num">07</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#E8622C" stroke-width="1.6"><path d="M4 20V10l8-6 8 6v10M9 20v-6h6v6"/></svg>
+          <h3>Nájazdy a vjazdy</h3>
+          <p>Znížené nájazdové obrubníky pre bezbariérový prístup a vjazd do garáže.</p>
+        </div>
+        <div class="service-card">
+          <div class="num" style="color:var(--teal);">08</div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#4FA69A" stroke-width="1.6"><path d="M4 4l16 16M20 4L4 20"/></svg>
+          <h3>Zemné práce</h3>
+          <p>Výkop, hutnenie podložia a odvoz zeminy pred samotnou pokládkou.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="proces">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Ako to prebieha</h2>
+        <p>Osem krokov od obhliadky po odovzdanie diela — v presne tomto poradí.</p>
+      </div>
+      <div class="process-list">
+        <div class="process-item">
+          <div class="step">01</div>
+          <h3>Obhliadka a zameranie</h3>
+          <p>Prídeme na miesto, zmeriame plochu, posúdime podložie a spády, poradíme s výberom materiálu.</p>
+        </div>
+        <div class="process-item">
+          <div class="step" style="color:var(--teal);">02</div>
+          <h3>Cenová ponuka</h3>
+          <p>Do 3 pracovných dní dostanete rozpočet položkovito — bez skrytých poplatkov.</p>
+        </div>
+        <div class="process-item">
+          <div class="step">03</div>
+          <h3>Úprava podkladu</h3>
+          <p>Výkop, štrkodrť a zhutnenie pláne, prípadne betónové lôžko podľa zaťaženia plochy.</p>
+        </div>
+        <div class="process-item">
+          <div class="step" style="color:var(--teal);">04</div>
+          <h3>Pokládka dlažby</h3>
+          <p>Osadenie obrubníkov a dlažby do vzoru s laserovým zameraním spádu.</p>
+        </div>
+        <div class="process-item">
+          <div class="step">05</div>
+          <h3>Dorezávanie</h3>
+          <p>Presné orezanie okrajových kusov pri rohoch, obrubníkoch a vpustoch.</p>
+        </div>
+        <div class="process-item">
+          <div class="step" style="color:var(--teal);">06</div>
+          <h3>Zapieskovanie</h3>
+          <p>Vmetenie škárovacieho piesku do špár medzi jednotlivými kusmi dlažby.</p>
+        </div>
+        <div class="process-item">
+          <div class="step">07</div>
+          <h3>Zhutnenie</h3>
+          <p>Prejdenie celej plochy vibračnou doskou, ktoré spevní dlažbu a uzavrie škáry.</p>
+        </div>
+        <div class="process-item">
+          <div class="step" style="color:var(--teal);">08</div>
+          <h3>Odovzdanie</h3>
+          <p>Kontrolný obhliad spolu s vami a protokol o odovzdaní diela.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="referencie">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Realizácie</h2>
+        <p>Výber z posledných zákaziek — rodinné domy, obce aj priemyselné areály.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="g1">
+          <img src="images/terasa-rodinny-dom.jpg" alt="Terasa a chodník pri rodinnom dome" loading="lazy">
+          <figcaption>Terasa a chodník, rodinný dom</figcaption>
+        </figure>
+        <figure>
+          <img src="images/dlazba-herringbone.jpg" alt="Dlažba položená do vzoru herringbone" loading="lazy">
+          <figcaption>Dlažba do vzoru, terasa</figcaption>
+        </figure>
+        <figure>
+          <img src="images/velkoplosna-dlazba-zlab.jpg" alt="Veľkoplošná dlažba s odvodňovacím žľabom" loading="lazy">
+          <figcaption>Veľkoplošná dlažba s odvodnením</figcaption>
+        </figure>
+        <figure>
+          <img src="images/detail-dlazby.jpg" alt="Detail položenej dlažby v prírodných odtieňoch" loading="lazy">
+          <figcaption>Detail dlažby, mix odtieňov</figcaption>
+        </figure>
+        <figure>
+          <img src="images/priprava-vjazdu.jpg" alt="Príprava a pokládka vjazdu" loading="lazy">
+          <figcaption>Príprava a pokládka vjazdu</figcaption>
+        </figure>
+        <figure>
+          <img src="images/priepustna-dlazba-bytovka.jpg" alt="Priepustná dlažba pri bytovom dome" loading="lazy">
+          <figcaption>Priepustná dlažba, bytový dom</figcaption>
+        </figure>
+        <figure>
+          <img src="images/priepustna-dlazba-detail.jpg" alt="Detail priepustnej dlažby" loading="lazy">
+          <figcaption>Priepustná dlažba, detail</figcaption>
+        </figure>
+        <figure>
+          <img src="images/chodnik-obec.jpg" alt="Chodník v obci pripravený na osadenie" loading="lazy">
+          <figcaption>Chodník v obci, príprava lôžka</figcaption>
+        </figure>
+        <figure>
+          <img src="images/vjazd-rodinny-dom.jpg" alt="Vjazd k rodinnému domu, dlažba do vzoru" loading="lazy">
+          <figcaption>Vjazd k rodinnému domu</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="recenzie">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Čo hovoria klienti</h2>
+        <p>Referencie priamo od súkromných aj firemných zákazníkov.</p>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Obrubníky aj dlažbu okolo domu spravili presne podľa dohody, spád funguje aj pri prívalových dažďoch. Odporúčam.“</p>
+          <div class="who">Martina K.<span>Rodinný dom, Piešťany</span></div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Realizovali nám parkovisko pre 40 áut vrátane odvodnenia. Termín aj rozpočet dodržali do písmena.“</p>
+          <div class="who">Peter H.<span>Firemný areál, Sereď</span></div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Obecný chodník po rokoch konečne rovný a bez kaluží. Komunikácia počas realizácie bola bezproblémová.“</p>
+          <div class="who">Obec Vráble<span>Verejná zákazka</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap" style="max-width:820px;">
+      <div class="section-head" style="max-width:none;">
+        <h2>Časté otázky</h2>
+      </div>
+      <details class="faq-item" open>
+        <summary style="display:none;"></summary>
+      </details>
+      <div class="faq-item">
+        <button aria-expanded="false">Ako dlho trvá osadenie obrubníkov pri rodinnom dome?<span class="plus">+</span></button>
+        <p>Pri bežnom rodinnom dome (30–60 bm obrubníkov) počítajte s 3 až 5 pracovnými dňami vrátane zemných prác a betónového lôžka.</p>
+      </div>
+      <div class="faq-item">
+        <button aria-expanded="false">Ako prebieha samotná pokládka dlažby?<span class="plus">+</span></button>
+        <p>Pripravíme podklad, uložíme dlažbu do vzoru, dorežeme okrajové kusy, zapieskujeme škáry a plochu zhutníme vibračnou doskou.</p>
+      </div>
+      <div class="faq-item">
+        <button aria-expanded="false">Pracujete aj v zime?<span class="plus">+</span></button>
+        <p>Betónové a asfaltové práce realizujeme pri teplotách nad 5 °C. Mimo sezóny radi spravíme zameranie a prípravu projektu.</p>
+      </div>
+      <div class="faq-item">
+        <button aria-expanded="false">Musím si zabezpečiť materiál sám?<span class="plus">+</span></button>
+        <p>Nie, materiál — obrubníky, dlažbu, štrkodrť aj betón — zabezpečujeme v cene ponuky, vrátane dopravy na stavbu.</p>
+      </div>
+      <div class="faq-item">
+        <button aria-expanded="false">Robíte aj menšie opravy, nie len nové plochy?<span class="plus">+</span></button>
+        <p>Áno, preosadíme prepadnuté obrubníky, doplníme vypadané škáry alebo opravíme lokálne výtlky bez nutnosti riešiť celú plochu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="kontakt">
+    <div class="wrap contact-grid">
+      <div class="contact-info">
+        <div class="eyebrow">Kontakt</div>
+        <h2 style="font-size:36px; margin-bottom:24px;">Pripravme spolu váš pozemok</h2>
+        <div>
+          <div class="eyebrow" style="color:var(--concrete);">Telefón</div>
+          <a href="tel:+421940816752">0940 816 752</a>
+        </div>
+        <div>
+          <div class="eyebrow" style="color:var(--concrete);">E-mail</div>
+          <a href="mailto:zamkovadlazbask@gmail.com">zamkovadlazbask@gmail.com</a>
+        </div>
+        <div>
+          <div class="eyebrow" style="color:var(--concrete);">Pracovná doba</div>
+          <p>Pondelok — Piatok, 7:00 — 16:00</p>
+        </div>
+      </div>
+      <form id="contactForm">
+        <div class="form-row">
+          <div>
+            <label for="meno">Meno a priezvisko</label>
+            <input id="meno" name="meno" type="text" placeholder="Ján Novák" required>
+          </div>
+          <div>
+            <label for="telefon">Telefón</label>
+            <input id="telefon" name="telefon" type="tel" placeholder="+421 900 000 000" required>
+          </div>
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="jan.novak@email.sk" required>
+        </div>
+        <div>
+          <label for="sluzba">Typ zákazky</label>
+          <select id="sluzba" name="sluzba">
+            <option>Obrubníky</option>
+            <option>Zámková dlažba</option>
+            <option>Asfaltové plochy</option>
+            <option>Odvodnenie</option>
+            <option>Kombinácia / neviem presne</option>
+          </select>
+        </div>
+        <div>
+          <label for="sprava">Popis zákazky</label>
+          <textarea id="sprava" name="sprava" placeholder="Približná rozloha, lokalita, termín…"></textarea>
+        </div>
+        <label class="consent"><input type="checkbox" required> Súhlasím so spracovaním osobných údajov za účelom vypracovania cenovej ponuky.</label>
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Odoslať dopyt</button>
+        <p id="formNote" style="font-size:13px; color:var(--concrete); display:none;">Ďakujeme, dopyt bol odoslaný. Ozveme sa do 3 pracovných dní.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo"><span class="dot" style="display:inline-block;width:8px;height:8px;background:var(--orange);margin-right:6px;"></span>OBRYS</div>
+        <p>Obrubníky, zámková dlažba a asfaltové plochy na kľúč. Pôsobíme po celom Slovensku, sídlo máme v Trnave.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Služby</h4>
+        <a href="#sluzby">Betónové obrubníky</a>
+        <a href="#sluzby">Zámková dlažba</a>
+        <a href="#sluzby">Asfaltové plochy</a>
+        <a href="#sluzby">Odvodnenie</a>
+      </div>
+      <div class="foot-col">
+        <h4>Firma</h4>
+        <a href="#proces">Ako pracujeme</a>
+        <a href="#referencie">Realizácie</a>
+        <a href="#recenzie">Recenzie</a>
+        <a href="#faq">Časté otázky</a>
+      </div>
+      <div class="foot-col">
+        <h4>Kontakt</h4>
+        <a href="tel:+421940816752">0940 816 752</a>
+        <a href="mailto:zamkovadlazbask@gmail.com">zamkovadlazbask@gmail.com</a>
+        <a href="#kontakt">Nezáväzný dopyt</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 OBRYS s. r. o. Všetky práva vyhradené.</span>
+      <span><a href="#">Ochrana osobných údajov</a> · <a href="#">Obchodné podmienky</a> · <a href="#">Mapa stránky</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
